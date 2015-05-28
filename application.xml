@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
-    <meta title="d20 Stats" package="" version="1.0.0" company="" />
+    <meta title="d20 Stats" package="com.d20stats" version="1.0.0" company="" />
  
     <app main="Main" file="d20stats" path="bin" />
     
     <window background="#FFFFFF" fps="60" />
-    <window width="800" height="600" unless="mobile" />
-    <window orientation="landscape" vsync="false" antialiasing="0" if="cpp" />
+    <window width="1200" height="800" fullscreen="true"/>
+    <window orientation="landscape" />
     
     <!-- classpath, haxe libs -->
     <source path="." />
