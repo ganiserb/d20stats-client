@@ -125,23 +125,23 @@ class ApplicationMain {
 			depthBuffer: false,
 			file: "d20c",
 			fps: Std.int (60),
-			fullscreen: false,
+			fullscreen: true,
 			hardware: true,
-			height: Std.int (480),
-			orientation: "portrait",
+			height: Std.int (0),
+			orientation: "landscape",
 			packageName: "com.example.myapp",
 			resizable: true,
 			stencilBuffer: true,
 			title: "d20c",
 			version: "0.0.1",
 			vsync: true,
-			width: Std.int (640),
+			width: Std.int (0),
 			
 		}
 		
 		#if (js && html5)
 		#if (munit || utest)
-		openfl.Lib.embed (null, 640, 480, "000000");
+		openfl.Lib.embed (null, 0, 0, "000000");
 		#end
 		#else
 		create ();

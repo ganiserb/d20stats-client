@@ -9,6 +9,9 @@ import flixel.util.FlxSave;
  */
 class Reg
 {
+	public static var selectedUserUri : String = '';
+	public static var selectedUserName : String = '';
+	public static var selectedRollValue : Int = 0;
 	/**
 	 * Generic levels Array that can be used for cross-state stuff.
 	 * Example usage: Storing the levels of a platformer.

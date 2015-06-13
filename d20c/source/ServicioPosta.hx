@@ -22,18 +22,7 @@ class ServicioPosta {
 	private inline static var password : String = "pepelopo01";
 	
 	private inline static var ruta_roll : String = "roll/";
-	private inline static var ruta_user : String = "user/";
-	//private inline static var ruta_base : String = "https://ucseapijuegos.herokuapp.com/api/v1/";
-	//private inline static var formato : String = "json";
-	//private inline static var api_key : String = "ddbaec6ee3f8fca507320c8ae3ed7c40e01e958b";
-	//private inline static var api_username : String = "apiuser";
-	//private inline static var password : String = "UserAPI2015$";
-	//
-	//private inline static var ruta_level : String = "level/";
-	//private inline static var ruta_user : String = "user/";
-	//private inline static var ruta_play : String = "play/";
-	//private inline static var ruta_puntajes: String = "points/";
-	
+	private inline static var ruta_user : String = "user/";	
 	
 	private function new() {
 		
